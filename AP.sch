@@ -820,7 +820,7 @@ U 1 1 60004A19
 P 9125 5725
 F 0 "Nastaven1" H 9100 6200 50  0000 C CNN
 F 1 "nastavení hodin" H 9100 6125 50  0000 C CNN
-F 2 "" H 8975 5885 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8975 5885 50  0001 C CNN
 F 3 "~" H 9125 5985 50  0001 C CNN
 	1    9125 5725
 	1    0    0    -1  
