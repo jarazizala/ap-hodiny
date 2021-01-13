@@ -470,121 +470,12 @@ Wire Wire Line
 	4500 2850 4750 2850
 Text GLabel 4500 2850 0    50   Input ~ 0
 Y5
-Wire Wire Line
-	7425 5125 7425 5000
-$Comp
-L power:VCC #PWR0108
-U 1 1 5FF8B6C2
-P 7425 5000
-F 0 "#PWR0108" H 7425 4850 50  0001 C CNN
-F 1 "VCC" H 7440 5173 50  0000 C CNN
-F 2 "" H 7425 5000 50  0001 C CNN
-F 3 "" H 7425 5000 50  0001 C CNN
-	1    7425 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7425 5425 7425 5600
-$Comp
-L power:GND #PWR0109
-U 1 1 5FF8DBFE
-P 7425 5600
-F 0 "#PWR0109" H 7425 5350 50  0001 C CNN
-F 1 "GND" H 7430 5427 50  0000 C CNN
-F 2 "" H 7425 5600 50  0001 C CNN
-F 3 "" H 7425 5600 50  0001 C CNN
-	1    7425 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT Rtrim1
-U 1 1 5FF900FB
-P 7425 5275
-F 0 "Rtrim1" H 7356 5321 50  0000 R CNN
-F 1 "R_POT" H 7356 5230 50  0000 R CNN
-F 2 "" H 7425 5275 50  0001 C CNN
-F 3 "~" H 7425 5275 50  0001 C CNN
-	1    7425 5275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7575 5275 7825 5275
-Text GLabel 7825 5275 2    39   Input ~ 0
-Rtrim1
-Wire Wire Line
-	1025 4375 1225 4375
-Text GLabel 1225 4375 2    39   Input ~ 0
-Rtrim1
-$Comp
-L Switch:SW_MEC_5G tlačítko1
-U 1 1 5FFA02FD
-P 8700 5300
-F 0 "tlačítko1" H 8700 5585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 8700 5494 50  0000 C CNN
-F 2 "" H 8700 5500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 8700 5500 50  0001 C CNN
-	1    8700 5300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6975 4625 6975 6550
 Wire Notes Line
 	10900 6550 10900 4625
-Text Notes 10775 4800 2    118  ~ 0
-trimer a tlačítko\n
-Wire Wire Line
-	8500 5300 8350 5300
-$Comp
-L power:VCC #PWR0104
-U 1 1 5FFAF2E9
-P 8350 5150
-F 0 "#PWR0104" H 8350 5000 50  0001 C CNN
-F 1 "VCC" H 8365 5323 50  0000 C CNN
-F 2 "" H 8350 5150 50  0001 C CNN
-F 3 "" H 8350 5150 50  0001 C CNN
-	1    8350 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 5300 9000 5300
-Text GLabel 9075 5300 2    39   Input ~ 0
-Tl1
-Wire Wire Line
-	1025 4475 1225 4475
-Text GLabel 1225 4475 2    39   Input ~ 0
-Tl1
-Wire Wire Line
-	1025 4575 1225 4575
-Text GLabel 1225 4575 2    39   Input ~ 0
-Tl2
-$Comp
-L Switch:SW_MEC_5G tlačítko2
-U 1 1 5FFB9FEB
-P 10150 5300
-F 0 "tlačítko2" H 10150 5585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 10150 5494 50  0000 C CNN
-F 2 "" H 10150 5500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 10150 5500 50  0001 C CNN
-	1    10150 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 5300 9750 5300
-Wire Wire Line
-	10350 5300 10475 5300
-$Comp
-L power:VCC #PWR0105
-U 1 1 5FFBF697
-P 9750 5150
-F 0 "#PWR0105" H 9750 5000 50  0001 C CNN
-F 1 "VCC" H 9765 5323 50  0000 C CNN
-F 2 "" H 9750 5150 50  0001 C CNN
-F 3 "" H 9750 5150 50  0001 C CNN
-	1    9750 5150
-	1    0    0    -1  
-$EndComp
-Text GLabel 10575 5300 2    39   Input ~ 0
-Tl2
+Text Notes 10825 4975 2    118  ~ 0
+Ecs\n\n
 Wire Wire Line
 	2050 3000 2275 3000
 Text GLabel 2275 3000 2    39   Input ~ 0
@@ -792,64 +683,6 @@ Connection ~ 3150 6025
 Wire Wire Line
 	3150 6600 3400 6600
 Connection ~ 3150 6600
-Wire Wire Line
-	10475 5300 10475 5450
-Connection ~ 10475 5300
-Wire Wire Line
-	10475 5300 10575 5300
-Wire Wire Line
-	9000 5300 9000 5450
-Connection ~ 9000 5300
-Wire Wire Line
-	9000 5300 9075 5300
-$Comp
-L Device:R Rtl1
-U 1 1 60066593
-P 9000 5600
-F 0 "Rtl1" H 9070 5646 50  0000 L CNN
-F 1 "10k" H 9070 5555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 5600 50  0001 C CNN
-F 3 "~" H 9000 5600 50  0001 C CNN
-	1    9000 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R Rtl2
-U 1 1 600673B8
-P 10475 5600
-F 0 "Rtl2" H 10545 5646 50  0000 L CNN
-F 1 "10k" H 10545 5555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 10405 5600 50  0001 C CNN
-F 3 "~" H 10475 5600 50  0001 C CNN
-	1    10475 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 60067D58
-P 9000 5825
-F 0 "#PWR0111" H 9000 5575 50  0001 C CNN
-F 1 "GND" H 9005 5652 50  0000 C CNN
-F 2 "" H 9000 5825 50  0001 C CNN
-F 3 "" H 9000 5825 50  0001 C CNN
-	1    9000 5825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 6006DC8F
-P 10475 5825
-F 0 "#PWR0112" H 10475 5575 50  0001 C CNN
-F 1 "GND" H 10480 5652 50  0000 C CNN
-F 2 "" H 10475 5825 50  0001 C CNN
-F 3 "" H 10475 5825 50  0001 C CNN
-	1    10475 5825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10475 5825 10475 5750
-Wire Wire Line
-	9000 5825 9000 5750
 $Comp
 L power:VCC #PWR0113
 U 1 1 5FFFC260
@@ -981,8 +814,124 @@ F 3 "" H 1300 3700 50  0001 C CNN
 	1    1300 3700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Rotary_Encoder_Switch Nastavení
+U 1 1 60004A19
+P 9125 5725
+F 0 "Nastavení" H 9125 6092 50  0000 C CNN
+F 1 "nastavení hodin" H 9125 6001 50  0000 C CNN
+F 2 "" H 8975 5885 50  0001 C CNN
+F 3 "~" H 9125 5985 50  0001 C CNN
+	1    9125 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rec1
+U 1 1 60019FB4
+P 8475 5175
+F 0 "Rec1" H 8545 5221 50  0000 L CNN
+F 1 "10K" H 8545 5130 50  0000 L CNN
+F 2 "" V 8405 5175 50  0001 C CNN
+F 3 "~" H 8475 5175 50  0001 C CNN
+	1    8475 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rec2
+U 1 1 6001B1FB
+P 8175 5175
+F 0 "Rec2" H 8245 5221 50  0000 L CNN
+F 1 "10K" H 8245 5130 50  0000 L CNN
+F 2 "" V 8105 5175 50  0001 C CNN
+F 3 "~" H 8175 5175 50  0001 C CNN
+	1    8175 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rec3
+U 1 1 6001BC24
+P 7875 5175
+F 0 "Rec3" H 7945 5221 50  0000 L CNN
+F 1 "10K" H 7945 5130 50  0000 L CNN
+F 2 "" V 7805 5175 50  0001 C CNN
+F 3 "~" H 7875 5175 50  0001 C CNN
+	1    7875 5175
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8350 5300 8350 5150
+	9425 5625 9575 5625
 Wire Wire Line
-	9750 5300 9750 5150
+	9575 5625 9575 5450
+Wire Wire Line
+	9575 5450 8475 5450
+Wire Wire Line
+	8475 5325 8475 5450
+Connection ~ 8475 5450
+Wire Wire Line
+	8475 5450 7725 5450
+Wire Wire Line
+	8825 5825 8175 5825
+Wire Wire Line
+	8175 5325 8175 5825
+Connection ~ 8175 5825
+Wire Wire Line
+	8175 5825 7725 5825
+Wire Wire Line
+	8825 5625 7875 5625
+Wire Wire Line
+	7875 5325 7875 5625
+Connection ~ 7875 5625
+Wire Wire Line
+	7875 5625 7725 5625
+Wire Wire Line
+	8825 5725 8600 5725
+Wire Wire Line
+	8600 5725 8600 6075
+$Comp
+L power:GND #PWR?
+U 1 1 6004F39A
+P 8600 6075
+F 0 "#PWR?" H 8600 5825 50  0001 C CNN
+F 1 "GND" H 8605 5902 50  0000 C CNN
+F 2 "" H 8600 6075 50  0001 C CNN
+F 3 "" H 8600 6075 50  0001 C CNN
+	1    8600 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9425 5825 9575 5825
+Wire Wire Line
+	9575 5825 9575 6025
+$Comp
+L power:GND #PWR?
+U 1 1 60054E38
+P 9575 6025
+F 0 "#PWR?" H 9575 5775 50  0001 C CNN
+F 1 "GND" H 9580 5852 50  0000 C CNN
+F 2 "" H 9575 6025 50  0001 C CNN
+F 3 "" H 9575 6025 50  0001 C CNN
+	1    9575 6025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 5025 8175 5025
+Wire Wire Line
+	7875 5025 8175 5025
+Connection ~ 8175 5025
+Wire Wire Line
+	7875 5025 7650 5025
+Connection ~ 7875 5025
+$Comp
+L power:VCC #PWR?
+U 1 1 600700A3
+P 7650 4900
+F 0 "#PWR?" H 7650 4750 50  0001 C CNN
+F 1 "VCC" H 7665 5073 50  0000 C CNN
+F 2 "" H 7650 4900 50  0001 C CNN
+F 3 "" H 7650 4900 50  0001 C CNN
+	1    7650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4900 7650 5025
 $EndSCHEMATC
