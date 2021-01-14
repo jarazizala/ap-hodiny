@@ -14,94 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74HC04 I1
-U 1 1 5FF3F812
-P 5050 1350
-F 0 "I1" H 5250 1550 50  0000 C CNN
-F 1 "74HC04" H 5250 1450 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1350 50  0001 C CNN
-	1    5050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 I3
-U 2 1 5FF40CF8
-P 5050 1650
-F 0 "I3" H 5250 1850 50  0000 C CNN
-F 1 "74HC04" H 5250 1750 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1650 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1650 50  0001 C CNN
-	2    5050 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U1
-U 3 1 5FF41F57
-P 5050 1950
-F 0 "U1" H 5250 2150 50  0000 C CNN
-F 1 "74HC04" H 5250 2050 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1950 50  0001 C CNN
-	3    5050 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 I4
-U 4 1 5FF42F6A
-P 5050 2250
-F 0 "I4" H 5250 2450 50  0000 C CNN
-F 1 "74HC04" H 5250 2350 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2250 50  0001 C CNN
-	4    5050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 I5
-U 5 1 5FF43F94
-P 5050 2550
-F 0 "I5" H 5250 2750 50  0000 C CNN
-F 1 "74HC04" H 5250 2650 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2550 50  0001 C CNN
-	5    5050 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 I6
-U 6 1 5FF44E29
-P 5050 2850
-F 0 "I6" H 5250 3050 50  0000 C CNN
-F 1 "74HC04" H 5250 2950 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2850 50  0001 C CNN
-	6    5050 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 Inv2
-U 7 1 5FF45F70
-P 5125 3450
-F 0 "Inv2" V 4875 3350 50  0000 L CNN
-F 1 "74HC04" V 4800 3300 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5125 3450 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5125 3450 50  0001 C CNN
-	7    5125 3450
-	0    -1   1    0   
-$EndComp
-$Comp
-L 74xx_IEEE:74HC238 Demultiplexor1
-U 1 1 5FF51D41
-P 1800 1200
-F 0 "Demultiplexor1" H 2100 1575 50  0000 C CNN
-F 1 "74HC138" H 1800 1800 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 1800 1200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 1800 1200 50  0001 C CNN
-	1    1800 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR02
 U 1 1 5FF5A1AA
 P 1800 850
@@ -122,39 +34,6 @@ F 2 "" H 1800 1950 50  0001 C CNN
 F 3 "" H 1800 1950 50  0001 C CNN
 	1    1800 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 Inv21
-U 1 1 5FF7A8A6
-P 5050 3925
-F 0 "Inv21" H 5225 4100 50  0000 C CNN
-F 1 "74HC04" H 5225 4025 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 3925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 3925 50  0001 C CNN
-	1    5050 3925
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 Inv22
-U 2 1 5FF7C1B6
-P 5050 4225
-F 0 "Inv22" H 5225 4400 50  0000 C CNN
-F 1 "74HC04" H 5225 4325 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 4225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 4225 50  0001 C CNN
-	2    5050 4225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 Inv1
-U 7 1 5FF7D329
-P 5100 900
-F 0 "Inv1" V 5450 950 50  0000 L CNN
-F 1 "74HC04" V 5350 850 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5100 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5100 900 50  0001 C CNN
-	7    5100 900 
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1800 900  1800 850 
@@ -419,47 +298,25 @@ Wire Notes Line
 Text Notes 9375 700  0    118  ~ 0
 Invertory a 7seg\n
 $Comp
-L Connector:Conn_01x08_Male Power1
-U 1 1 600E487A
-P 825 3400
-F 0 "Power1" H 933 3881 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 933 3790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 825 3400 50  0001 C CNN
-F 3 "~" H 825 3400 50  0001 C CNN
-	1    825  3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Male Analogin1
-U 1 1 600E5F54
-P 825 4575
-F 0 "Analogin1" H 933 4956 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 933 4865 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 825 4575 50  0001 C CNN
-F 3 "~" H 825 4575 50  0001 C CNN
-	1    825  4575
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x08_Male Digital1
 U 1 1 600E7476
-P 1875 4700
-F 0 "Digital1" H 1983 5181 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1983 5090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1875 4700 50  0001 C CNN
-F 3 "~" H 1875 4700 50  0001 C CNN
-	1    1875 4700
+P 9100 4150
+F 0 "Digital1" H 9208 4631 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9208 4540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9100 4150 50  0001 C CNN
+F 3 "~" H 9100 4150 50  0001 C CNN
+	1    9100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x10_Male Digital2
 U 1 1 600E8C6F
-P 1850 3400
-F 0 "Digital2" H 1958 3981 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 1958 3890 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1850 3400 50  0001 C CNN
-F 3 "~" H 1850 3400 50  0001 C CNN
-	1    1850 3400
+P 9075 2850
+F 0 "Digital2" H 9183 3431 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 9183 3340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9075 2850 50  0001 C CNN
+F 3 "~" H 9075 2850 50  0001 C CNN
+	1    9075 2850
 	1    0    0    -1  
 $EndComp
 Text Notes 2475 2675 0    118  ~ 0
@@ -472,50 +329,42 @@ Wire Notes Line
 	10900 6550 10900 4625
 Text Notes 10825 4975 2    118  ~ 0
 Ecs\n\n
-Wire Wire Line
-	2050 3000 2275 3000
-Text GLabel 2275 3000 2    39   Input ~ 0
+Text GLabel 2850 4500 2    39   Input ~ 0
 SCL
-Wire Wire Line
-	2050 3100 2275 3100
-Text GLabel 2275 3100 2    39   Input ~ 0
+Text GLabel 2850 4400 2    39   Input ~ 0
 SDA
 Wire Wire Line
-	2050 3800 2275 3800
-Text GLabel 2275 3800 2    39   Input ~ 0
+	1650 4300 1425 4300
+Text GLabel 1425 4300 0    39   Input ~ 0
 GNDs12
 Text GLabel 9700 1750 2    39   Input ~ 0
 GNDs12
 Wire Wire Line
-	2050 3900 2275 3900
-Text GLabel 2275 3900 2    39   Input ~ 0
+	1650 4200 1425 4200
+Text GLabel 1425 4200 0    39   Input ~ 0
 GNDs9
 Text GLabel 9700 1850 2    39   Input ~ 0
 GNDs9
 Wire Wire Line
-	2075 4400 2275 4400
-Text GLabel 2275 4400 2    39   Input ~ 0
+	1650 4100 1450 4100
+Text GLabel 1450 4100 0    39   Input ~ 0
 GNDs8
 Wire Wire Line
-	2075 4500 2275 4500
-Text GLabel 2275 4500 2    39   Input ~ 0
+	1650 4000 1450 4000
+Text GLabel 1450 4000 0    39   Input ~ 0
 GNDs6
 Text GLabel 9700 1950 2    39   Input ~ 0
 GNDs8
 Text GLabel 9700 2050 2    39   Input ~ 0
 GNDs6
 Wire Wire Line
-	2050 3500 2250 3500
-Text GLabel 2250 3500 2    39   Input ~ 0
+	1650 4600 1450 4600
+Text GLabel 1450 4600 0    39   Input ~ 0
 A2
 Wire Wire Line
-	2050 3600 2250 3600
-Text GLabel 2250 3600 2    39   Input ~ 0
+	1650 4500 1450 4500
+Text GLabel 1450 4500 0    39   Input ~ 0
 A1
-Wire Wire Line
-	2050 3700 2250 3700
-Text GLabel 2250 3700 2    39   Input ~ 0
-A0
 Text GLabel 1000 1550 0    39   Input ~ 0
 A0
 Text GLabel 1000 1650 0    39   Input ~ 0
@@ -523,26 +372,17 @@ A1
 Text GLabel 1000 1750 0    39   Input ~ 0
 A2
 NoConn ~ 2300 6800
-NoConn ~ 2050 3300
-NoConn ~ 2050 3200
-NoConn ~ 2075 5100
-NoConn ~ 1025 4875
-NoConn ~ 1025 4775
-NoConn ~ 1025 4675
-NoConn ~ 1025 3800
-NoConn ~ 1025 3700
-NoConn ~ 1025 3400
-NoConn ~ 1025 3300
-NoConn ~ 1025 3200
-NoConn ~ 1025 3100
+NoConn ~ 9275 2750
+NoConn ~ 9275 2650
+NoConn ~ 9300 4550
 Wire Notes Line
 	500  500  500  7750
 Wire Notes Line
 	3750 2525 3750 7750
 Wire Notes Line
 	3750 4625 10900 4625
-NoConn ~ 2075 4900
-NoConn ~ 2075 5000
+NoConn ~ 9300 4350
+NoConn ~ 9300 4450
 Wire Wire Line
 	1700 6200 2650 6200
 Wire Wire Line
@@ -610,7 +450,7 @@ F 3 "" H 1100 5925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L AP-rescue:CP-Device C1
 U 1 1 60024A18
 P 2950 6275
 F 0 "C1" H 3068 6321 50  0000 L CNN
@@ -621,7 +461,7 @@ F 3 "~" H 2950 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L AP-rescue:CP-Device C2
 U 1 1 60025469
 P 3400 6275
 F 0 "C2" H 3518 6321 50  0000 L CNN
@@ -691,21 +531,6 @@ Wire Wire Line
 Wire Wire Line
 	4375 900  4600 900 
 $Comp
-L power:VCC #PWR0114
-U 1 1 60001D36
-P 4375 3375
-F 0 "#PWR0114" H 4375 3225 50  0001 C CNN
-F 1 "VCC" H 4390 3548 50  0000 C CNN
-F 2 "" H 4375 3375 50  0001 C CNN
-F 3 "" H 4375 3375 50  0001 C CNN
-	1    4375 3375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4375 3375 4375 3450
-Wire Wire Line
-	4375 3450 4625 3450
-$Comp
 L power:GND #PWR0115
 U 1 1 6000776B
 P 5825 975
@@ -716,21 +541,6 @@ F 3 "" H 5825 975 50  0001 C CNN
 	1    5825 975 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 60008B18
-P 5875 3525
-F 0 "#PWR0116" H 5875 3275 50  0001 C CNN
-F 1 "GND" H 5880 3352 50  0000 C CNN
-F 2 "" H 5875 3525 50  0001 C CNN
-F 3 "" H 5875 3525 50  0001 C CNN
-	1    5875 3525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5625 3450 5875 3450
-Wire Wire Line
-	5875 3450 5875 3525
 Wire Wire Line
 	5600 900  5825 900 
 Wire Wire Line
@@ -764,10 +574,6 @@ $EndComp
 Wire Wire Line
 	1250 1150 1150 1150
 Wire Wire Line
-	1000 1750 1250 1750
-Wire Wire Line
-	1000 1650 1250 1650
-Wire Wire Line
 	1000 1550 1250 1550
 Wire Wire Line
 	1150 1950 1150 1150
@@ -777,37 +583,20 @@ Wire Wire Line
 Wire Wire Line
 	1150 1000 1250 1000
 Wire Wire Line
-	1025 3500 1300 3500
-Wire Wire Line
-	1025 3600 1300 3600
-Wire Wire Line
-	1300 3600 1300 3700
-Wire Wire Line
-	1300 3500 1300 3400
-$Comp
-L power:VCC #PWR0119
-U 1 1 6001C74B
-P 1300 3400
-F 0 "#PWR0119" H 1300 3250 50  0001 C CNN
-F 1 "VCC" H 1315 3573 50  0000 C CNN
-F 2 "" H 1300 3400 50  0001 C CNN
-F 3 "" H 1300 3400 50  0001 C CNN
-	1    1300 3400
-	1    0    0    -1  
-$EndComp
+	2150 5200 2150 5300
 $Comp
 L power:GND #PWR0120
 U 1 1 6001D495
-P 1300 3700
-F 0 "#PWR0120" H 1300 3450 50  0001 C CNN
-F 1 "GND" H 1305 3527 50  0000 C CNN
-F 2 "" H 1300 3700 50  0001 C CNN
-F 3 "" H 1300 3700 50  0001 C CNN
-	1    1300 3700
+P 2150 5300
+F 0 "#PWR0120" H 2150 5050 50  0001 C CNN
+F 1 "GND" H 2155 5127 50  0000 C CNN
+F 2 "" H 2150 5300 50  0001 C CNN
+F 3 "" H 2150 5300 50  0001 C CNN
+	1    2150 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch Nastaven1
+L AP-rescue:Rotary_Encoder_Switch-Device Nastaven1
 U 1 1 60004A19
 P 9125 5725
 F 0 "Nastaven1" H 9100 6200 50  0000 C CNN
@@ -987,17 +776,15 @@ Wire Wire Line
 	4900 4925 4625 4925
 Wire Notes Line
 	500  7750 6975 7750
-Wire Notes Line
-	6975 4625 6975 7750
 Text GLabel 4625 4925 0    39   Input ~ 0
 Buz
 Wire Wire Line
-	2050 3400 2250 3400
-Text GLabel 2250 3400 2    39   Input ~ 0
+	1650 4700 1450 4700
+Text GLabel 1450 4700 0    39   Input ~ 0
 Buz
 Wire Wire Line
-	2075 4600 2275 4600
-Text GLabel 2275 4600 2    39   Input ~ 0
+	1650 3900 1450 3900
+Text GLabel 1450 3900 0    39   Input ~ 0
 A
 Text GLabel 7725 5625 0    39   Input ~ 0
 A
@@ -1006,14 +793,211 @@ B
 Text GLabel 7725 5450 0    39   Input ~ 0
 S1
 Wire Wire Line
-	2075 4700 2275 4700
-Text GLabel 2275 4700 2    39   Input ~ 0
+	1650 3800 1450 3800
+Text GLabel 1450 3800 0    39   Input ~ 0
 B
 Wire Wire Line
-	2075 4800 2275 4800
-Text GLabel 2275 4800 2    39   Input ~ 0
+	1650 3700 1450 3700
+Text GLabel 1450 3700 0    39   Input ~ 0
 S1
-NoConn ~ 1025 4575
-NoConn ~ 1025 4475
-NoConn ~ 1025 4375
+$Comp
+L 74xx:74HC04 U1
+U 1 1 6001A636
+P 5050 1350
+F 0 "U1" H 5050 1667 50  0000 C CNN
+F 1 "74HC04" H 5050 1576 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1350 50  0001 C CNN
+	1    5050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 2 1 6001B9D8
+P 5050 1650
+F 0 "U1" H 5050 1967 50  0000 C CNN
+F 1 "74HC04" H 5050 1876 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1650 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1650 50  0001 C CNN
+	2    5050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 3 1 6001CD5F
+P 5050 1950
+F 0 "U1" H 5050 2267 50  0000 C CNN
+F 1 "74HC04" H 5050 2176 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1950 50  0001 C CNN
+	3    5050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 4 1 6001E723
+P 5050 2250
+F 0 "U1" H 5050 2567 50  0000 C CNN
+F 1 "74HC04" H 5050 2476 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2250 50  0001 C CNN
+	4    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 5 1 6001F898
+P 5050 2550
+F 0 "U1" H 5050 2867 50  0000 C CNN
+F 1 "74HC04" H 5050 2776 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2550 50  0001 C CNN
+	5    5050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 6 1 6002086B
+P 5050 2850
+F 0 "U1" H 5050 3167 50  0000 C CNN
+F 1 "74HC04" H 5050 3076 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2850 50  0001 C CNN
+	6    5050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 7 1 600219BF
+P 5100 900
+F 0 "U1" V 5467 900 50  0000 C CNN
+F 1 "74HC04" V 5376 900 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5100 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5100 900 50  0001 C CNN
+	7    5100 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 7 1 60028435
+P 5150 3450
+F 0 "U2" V 5517 3450 50  0000 C CNN
+F 1 "74HC04" V 5426 3450 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5150 3450 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5150 3450 50  0001 C CNN
+	7    5150 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3450 5850 3450
+Wire Wire Line
+	4650 3450 4400 3450
+Wire Wire Line
+	5850 3450 5850 3550
+Wire Wire Line
+	4400 3350 4400 3450
+$Comp
+L power:GND #PWR0104
+U 1 1 60059B6A
+P 5850 3550
+F 0 "#PWR0104" H 5850 3300 50  0001 C CNN
+F 1 "GND" H 5855 3377 50  0000 C CNN
+F 2 "" H 5850 3550 50  0001 C CNN
+F 3 "" H 5850 3550 50  0001 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 6005A876
+P 4400 3350
+F 0 "#PWR0105" H 4400 3200 50  0001 C CNN
+F 1 "VCC" H 4415 3523 50  0000 C CNN
+F 2 "" H 4400 3350 50  0001 C CNN
+F 3 "" H 4400 3350 50  0001 C CNN
+	1    4400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 1 1 6005BB5F
+P 5050 3925
+F 0 "U2" H 5050 4242 50  0000 C CNN
+F 1 "74HC04" H 5050 4151 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 3925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 3925 50  0001 C CNN
+	1    5050 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U2
+U 2 1 6005EF7A
+P 5050 4225
+F 0 "U2" H 5050 4542 50  0000 C CNN
+F 1 "74HC04" H 5050 4451 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 4225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 4225 50  0001 C CNN
+	2    5050 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Arduino_UNO_R2 A?
+U 1 1 6006856E
+P 2150 4000
+F 0 "A?" H 1525 5100 50  0000 C CNN
+F 1 "Arduino_UNO_R2" H 1500 5025 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R2" H 2150 4000 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6975 4625 6975 7750
+Wire Wire Line
+	1650 4400 1450 4400
+Text GLabel 1450 4400 0    39   Input ~ 0
+A0
+Wire Wire Line
+	2050 5100 2050 5200
+Wire Wire Line
+	2050 5200 2150 5200
+Wire Wire Line
+	2150 5100 2150 5200
+Connection ~ 2150 5200
+Wire Wire Line
+	2150 5200 2250 5200
+Wire Wire Line
+	2250 5200 2250 5100
+$Comp
+L power:VCC #PWR?
+U 1 1 601143F4
+P 2350 2900
+F 0 "#PWR?" H 2350 2750 50  0001 C CNN
+F 1 "VCC" H 2365 3073 50  0000 C CNN
+F 2 "" H 2350 2900 50  0001 C CNN
+F 3 "" H 2350 2900 50  0001 C CNN
+	1    2350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3000 2350 2900
+Wire Wire Line
+	2850 4500 2650 4500
+Wire Wire Line
+	2850 4400 2650 4400
+Wire Wire Line
+	1000 1750 1250 1750
+Wire Wire Line
+	1000 1650 1250 1650
+$Comp
+L 74xx_IEEE:74HC238 Demultiplexor1
+U 1 1 5FF51D41
+P 1800 1200
+F 0 "Demultiplexor1" H 2100 1575 50  0000 C CNN
+F 1 "74HC138" H 1800 1800 50  0000 C CNN
+F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 1800 1200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 1800 1200 50  0001 C CNN
+	1    1800 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
