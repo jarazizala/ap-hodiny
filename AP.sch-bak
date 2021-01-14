@@ -224,8 +224,6 @@ F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 1800 6100 50  00
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	3850 7750 500  7750
-Wire Notes Line
 	400  5550 3750 5550
 $Comp
 L power:GND #PWR0101
@@ -471,8 +469,6 @@ Wire Wire Line
 Text GLabel 4500 2850 0    50   Input ~ 0
 Y5
 Wire Notes Line
-	6975 4625 6975 6550
-Wire Notes Line
 	10900 6550 10900 4625
 Text Notes 10825 4975 2    118  ~ 0
 Ecs\n\n
@@ -527,11 +523,8 @@ A1
 Text GLabel 1000 1750 0    39   Input ~ 0
 A2
 NoConn ~ 2300 6800
-NoConn ~ 2050 3400
 NoConn ~ 2050 3300
 NoConn ~ 2050 3200
-NoConn ~ 2075 4600
-NoConn ~ 2075 4700
 NoConn ~ 2075 5100
 NoConn ~ 1025 4875
 NoConn ~ 1025 4775
@@ -548,7 +541,6 @@ Wire Notes Line
 	3750 2525 3750 7750
 Wire Notes Line
 	3750 4625 10900 4625
-NoConn ~ 2075 4800
 NoConn ~ 2075 4900
 NoConn ~ 2075 5000
 Wire Wire Line
@@ -939,58 +931,89 @@ Bzučák\n
 $Comp
 L Device:Buzzer bzučák1
 U 1 1 60078352
-P 4725 5150
-F 0 "bzučák1" H 4877 5179 50  0000 L CNN
-F 1 "Buzzer" H 4877 5088 50  0000 L CNN
-F 2 "" V 4700 5250 50  0001 C CNN
-F 3 "~" V 4700 5250 50  0001 C CNN
-	1    4725 5150
+P 5300 5150
+F 0 "bzučák1" H 5452 5179 50  0000 L CNN
+F 1 "Buzzer" H 5452 5088 50  0000 L CNN
+F 2 "" V 5275 5250 50  0001 C CNN
+F 3 "~" V 5275 5250 50  0001 C CNN
+	1    5300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 6007EDA1
-P 4325 5450
-F 0 "#PWR03" H 4325 5200 50  0001 C CNN
-F 1 "GND" H 4330 5277 50  0000 C CNN
-F 2 "" H 4325 5450 50  0001 C CNN
-F 3 "" H 4325 5450 50  0001 C CNN
-	1    4325 5450
+P 4900 5450
+F 0 "#PWR03" H 4900 5200 50  0001 C CNN
+F 1 "GND" H 4905 5277 50  0000 C CNN
+F 2 "" H 4900 5450 50  0001 C CNN
+F 3 "" H 4900 5450 50  0001 C CNN
+	1    4900 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE Dioda1
 U 1 1 60085D5E
-P 4325 5150
-F 0 "Dioda1" V 4371 5070 50  0000 R CNN
-F 1 "DIODE" V 4280 5070 50  0000 R CNN
-F 2 "" H 4325 5150 50  0001 C CNN
-F 3 "~" H 4325 5150 50  0001 C CNN
-F 4 "Y" H 4325 5150 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 4325 5150 50  0001 L CNN "Spice_Primitive"
-	1    4325 5150
+P 4900 5150
+F 0 "Dioda1" V 4946 5070 50  0000 R CNN
+F 1 "DIODE" V 4855 5070 50  0000 R CNN
+F 2 "" H 4900 5150 50  0001 C CNN
+F 3 "~" H 4900 5150 50  0001 C CNN
+F 4 "Y" H 4900 5150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 4900 5150 50  0001 L CNN "Spice_Primitive"
+	1    4900 5150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4325 5300 4325 5350
+	4900 5300 4900 5350
 Wire Wire Line
-	4325 5350 4525 5350
+	4900 5350 5100 5350
 Wire Wire Line
-	4525 5350 4525 5250
+	5100 5350 5100 5250
 Wire Wire Line
-	4525 5250 4625 5250
-Connection ~ 4325 5350
+	5100 5250 5200 5250
+Connection ~ 4900 5350
 Wire Wire Line
-	4325 5350 4325 5450
+	4900 5350 4900 5450
 Wire Wire Line
-	4625 5050 4525 5050
+	5200 5050 5100 5050
 Wire Wire Line
-	4525 5050 4525 4925
+	5100 5050 5100 4925
 Wire Wire Line
-	4525 4925 4325 4925
+	5100 4925 4900 4925
 Wire Wire Line
-	4325 5000 4325 4925
-Connection ~ 4325 4925
+	4900 5000 4900 4925
+Connection ~ 4900 4925
 Wire Wire Line
-	4325 4925 4050 4925
+	4900 4925 4625 4925
+Wire Notes Line
+	500  7750 6975 7750
+Wire Notes Line
+	6975 4625 6975 7750
+Text GLabel 4625 4925 0    39   Input ~ 0
+Buz
+Wire Wire Line
+	2050 3400 2250 3400
+Text GLabel 2250 3400 2    39   Input ~ 0
+Buz
+Wire Wire Line
+	2075 4600 2275 4600
+Text GLabel 2275 4600 2    39   Input ~ 0
+A
+Text GLabel 7725 5625 0    39   Input ~ 0
+A
+Text GLabel 7725 5825 0    39   Input ~ 0
+B
+Text GLabel 7725 5450 0    39   Input ~ 0
+S1
+Wire Wire Line
+	2075 4700 2275 4700
+Text GLabel 2275 4700 2    39   Input ~ 0
+B
+Wire Wire Line
+	2075 4800 2275 4800
+Text GLabel 2275 4800 2    39   Input ~ 0
+S1
+NoConn ~ 1025 4575
+NoConn ~ 1025 4475
+NoConn ~ 1025 4375
 $EndSCHEMATC
