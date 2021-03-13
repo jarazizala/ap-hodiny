@@ -297,28 +297,6 @@ Wire Notes Line
 	500  500  10900 500 
 Text Notes 9375 700  0    118  ~ 0
 Invertory a 7seg\n
-$Comp
-L Connector:Conn_01x08_Male Digital1
-U 1 1 600E7476
-P 9100 4150
-F 0 "Digital1" H 9208 4631 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 9208 4540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9100 4150 50  0001 C CNN
-F 3 "~" H 9100 4150 50  0001 C CNN
-	1    9100 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male Digital2
-U 1 1 600E8C6F
-P 9075 2850
-F 0 "Digital2" H 9183 3431 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 9183 3340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9075 2850 50  0001 C CNN
-F 3 "~" H 9075 2850 50  0001 C CNN
-	1    9075 2850
-	1    0    0    -1  
-$EndComp
 Text Notes 2475 2675 0    118  ~ 0
 Piny procesor\n
 Wire Wire Line
@@ -372,8 +350,6 @@ A1
 Text GLabel 1000 1750 0    39   Input ~ 0
 A2
 NoConn ~ 2300 6800
-NoConn ~ 9275 2750
-NoConn ~ 9275 2650
 NoConn ~ 9300 4550
 Wire Notes Line
 	500  500  500  7750
@@ -941,10 +917,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 422
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Module:Arduino_UNO_R2 A?
+L MCU_Module:Arduino_UNO_R2 A1
 U 1 1 6006856E
 P 2150 4000
-F 0 "A?" H 1525 5100 50  0000 C CNN
+F 0 "A1" H 1525 5100 50  0000 C CNN
 F 1 "Arduino_UNO_R2" H 1500 5025 50  0000 C CNN
 F 2 "Module:Arduino_UNO_R2" H 2150 4000 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 2150 4000 50  0001 C CNN
@@ -969,10 +945,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 5200 2250 5100
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0108
 U 1 1 601143F4
 P 2350 2900
-F 0 "#PWR?" H 2350 2750 50  0001 C CNN
+F 0 "#PWR0108" H 2350 2750 50  0001 C CNN
 F 1 "VCC" H 2365 3073 50  0000 C CNN
 F 2 "" H 2350 2900 50  0001 C CNN
 F 3 "" H 2350 2900 50  0001 C CNN

@@ -782,7 +782,7 @@ U 1 1 6001A636
 P 5050 1350
 F 0 "U1" H 5050 1667 50  0000 C CNN
 F 1 "74HC04" H 5050 1576 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1350 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1350 50  0001 C CNN
 	1    5050 1350
 	1    0    0    -1  
@@ -793,7 +793,7 @@ U 2 1 6001B9D8
 P 5050 1650
 F 0 "U1" H 5050 1967 50  0000 C CNN
 F 1 "74HC04" H 5050 1876 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1650 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1650 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1650 50  0001 C CNN
 	2    5050 1650
 	1    0    0    -1  
@@ -804,7 +804,7 @@ U 3 1 6001CD5F
 P 5050 1950
 F 0 "U1" H 5050 2267 50  0000 C CNN
 F 1 "74HC04" H 5050 2176 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 1950 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 1950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 1950 50  0001 C CNN
 	3    5050 1950
 	1    0    0    -1  
@@ -815,7 +815,7 @@ U 4 1 6001E723
 P 5050 2250
 F 0 "U1" H 5050 2567 50  0000 C CNN
 F 1 "74HC04" H 5050 2476 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2250 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2250 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2250 50  0001 C CNN
 	4    5050 2250
 	1    0    0    -1  
@@ -826,7 +826,7 @@ U 5 1 6001F898
 P 5050 2550
 F 0 "U1" H 5050 2867 50  0000 C CNN
 F 1 "74HC04" H 5050 2776 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2550 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2550 50  0001 C CNN
 	5    5050 2550
 	1    0    0    -1  
@@ -837,7 +837,7 @@ U 6 1 6002086B
 P 5050 2850
 F 0 "U1" H 5050 3167 50  0000 C CNN
 F 1 "74HC04" H 5050 3076 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 2850 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 2850 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 2850 50  0001 C CNN
 	6    5050 2850
 	1    0    0    -1  
@@ -848,7 +848,7 @@ U 7 1 600219BF
 P 5100 900
 F 0 "U1" V 5467 900 50  0000 C CNN
 F 1 "74HC04" V 5376 900 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5100 900 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5100 900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5100 900 50  0001 C CNN
 	7    5100 900 
 	0    -1   -1   0   
@@ -859,7 +859,7 @@ U 7 1 60028435
 P 5150 3450
 F 0 "U2" V 5517 3450 50  0000 C CNN
 F 1 "74HC04" V 5426 3450 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5150 3450 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5150 3450 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5150 3450 50  0001 C CNN
 	7    5150 3450
 	0    -1   -1   0   
@@ -900,7 +900,7 @@ U 1 1 6005BB5F
 P 5050 3925
 F 0 "U2" H 5050 4242 50  0000 C CNN
 F 1 "74HC04" H 5050 4151 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 3925 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 3925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 3925 50  0001 C CNN
 	1    5050 3925
 	1    0    0    -1  
@@ -911,7 +911,7 @@ U 2 1 6005EF7A
 P 5050 4225
 F 0 "U2" H 5050 4542 50  0000 C CNN
 F 1 "74HC04" H 5050 4451 50  0000 C CNN
-F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 5050 4225 50  0001 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5050 4225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5050 4225 50  0001 C CNN
 	2    5050 4225
 	1    0    0    -1  
